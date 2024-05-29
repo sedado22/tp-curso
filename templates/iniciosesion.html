@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- vinculación con estilos y favicon -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico" type="image/x-icon">
+    <title>Inicio de Sesion</title>
+    <!-- vinculación con google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- vinculación fontawesome -->
+    <script src="https://kit.fontawesome.com/6c447e9446.js" crossorigin="anonymous"></script>
+</head>
+
+<body > 
+    <!-- Encabezado -->
+    <header class="header">
+        <nav>
+            <!-- Logo -->
+            <div id="logo">
+                <a href="../index.html">
+                    <i class="fa-solid fa-kitchen-set"></i>
+                    <span class="logo-text">Recetas Faciles</span>
+                </a>
+            </div>
+    </header>
+
+    <main>
+        <section id="form-wrapper" class="d-flex" data-aos-duration="1000" class="seccionRegistrarse">
+            <form action="" method="get">
+                <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
+                <div>
+                    <input type="email" placeholder="Email" id="email" name="email">
+                    <div class="error-text"></div>
+                </div>
+                <div>
+                    <input type="password" placeholder="Contraseña" id="password" name="password">
+                    <div class="error-text"></div>
+                </div>
+                <div>
+                    <input type="submit" class="btn-rec" value="Iniciar Sesión">
+                </div>
+                <div class="form-help">
+                    <a href="../templates/register.html">Registrarse</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="../js/valida_iniciosesion.js"></script>
+
+</body>
+</html>

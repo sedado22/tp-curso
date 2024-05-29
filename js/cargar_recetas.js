@@ -22,7 +22,7 @@ const cargarRecetasTendencia = async (page = 1, numRecetas = 4) => {
 
         recetas.forEach(recipe => {
             const ancla = document.createElement('a');
-            ancla.href = '/TP-integrador/templates/detalle.html';
+            ancla.href = './templates/detalle.html';
             
             const receta = document.createElement('div');
             receta.classList.add('receta');
